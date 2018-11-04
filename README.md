@@ -40,7 +40,23 @@ The following steps were performed for each camera calibration :
   * undistort images using OpenCV's `undistort()` function.
   
   Here is the output of undistorted using camera calibration values through 'calibrate_camera.p'
-  ![]()
+  <table style="width:100%">
+   <tr>
+    <th>
+      <p align="center">
+           <img src="./output_images/test_calibration_before.jpg" alt="test_calibration_before" width="60%" height="60%">
+           <br>
+      </p>
+    </th>
+    <th>
+      <p align="center">
+           <img src="./output_images/test_calibration_after.jpg" alt="test_calibration_after" width="60%" height="60%">
+           <br>
+      </p>
+     </th>
+    </tr>
+   </table>
+
   
   ## Thresholded binary image `binarization_utils.py`
   Goal : `threshold binary frame`
@@ -76,5 +92,22 @@ The following steps were performed for each camera calibration :
    ## `main.py` here is all the part of the pipeline are stitched
    for images -> `mode='images`
    for video -> `mode=video`
+   
+   <table style="width:100%">
+   <tr>
+    <th>
+      <p align="center">
+           <img src="./output_images/test_calibration_before.jpg" alt="test_calibration_before" width="60%" height="60%">
+           <br>Original
+      </p>
+    </th>
+    <th>
+      <p align="center">
+           <img src="./output_images/calibration_tested_2.jpg" alt="calibration_after" width="60%" height="60%">
+           <br> Lane Detected
+      </p>
+     </th>
+    </tr>
+   </table>
    
    
