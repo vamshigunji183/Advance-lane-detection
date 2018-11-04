@@ -1,7 +1,7 @@
 # Advance-lane-detection
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=ymq9e9_GJ0E"><img src="./img/overview.gif" alt="Overview" width="50%" height="50%"></a>
+ <a href="https://www.youtube.com/watch?v=ymq9e9_GJ0E"><img src="./img/sample.gif" alt="Overview" width="50%" height="50%"></a>
  <br>Qualitative results. (click for full video)
 </p>
 
